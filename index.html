@@ -30,17 +30,24 @@
                 <iframe src="https://drive.google.com/file/d/1lMIhkJHmcLnYYgKftNdiMMyQ-2_vg-lI/preview" width="640" height="360" allow="autoplay"></iframe>
             </div>
             <div class="project-details">
-                <h3>Spatial Exploration with AI-Driven 3D Digital Twin — Xplorer</h3>
+                <h3>Xplorer - Taiwan's First 3D AI Home Buying Experience</h3>
                 <p>
-                    Xplorer 具備格局建繪、空間物件清除與換裝、精準房源推薦、全視角3D賞屋、全方位應屆諮詢等多元 AI 功能。
+                    Xplorer integrates Real Estate-specific Large Language Models (LLMs) with 3D scene reconstruction technology.
                 </p>
                 <p>
-                    個人負責的3D重建團隊，將3D高斯渲染（3DGS）用於室內重建，並成功部署成SaaS
+                    I Built a 3D reconstruction team of 4 from scratch. Led the development of 3D Gaussian Splatting (3DGS) based recon-
+                    struction, successfully introducing it into production services.
                 </p>
                 <ul>
-                    <li>透過微調超參數及引入mesh initialization至3DGS，改善室內房地產的重建品質，客戶滿意度達90%。</li>
-                    <li>與iOS後端、DevOps及QA團隊緊密合作，成功將3D重建功能部署至production環境，每月處理超過100個房地產物件的視覺重建需求。</li>
-                    <li>平衡計算成本與重建品質，將雲端計算費用降低40%，同時維持PSNR大於23的視覺品質。</li>
+                    <li>Improved indoor real estate property reconstruction quality by fine-tuning hyperparameters and introducing mesh ini-
+                        tialization to 3DGS, resulting in 90% customer satisfaction ratings.</li>
+                    <li>Collaborated with iOS backend, DevOps and QA teams to successfully deploy 3D reconstruction to production, enabling
+                        visualization of 100+ properties per month.</li>
+                    <li>Optimized computational cost and reconstruction quality balance, reducing cloud computing expenses by 40% while
+                        maintaining visual quality with PSNR greater than 23.</li>
+                    <li>Enhanced SfM results for downstream tasks (3DGS reconstruction and roomplan texturing) by integrating Deep Learn-
+                        ing (DL) based feature extraction/matching and balancing pose prior and reprojection error in bundle adjustment.</li>
+                    <li>Improved SfM pipeline efficiency 5 times by implementing multi batch-size feature matching and GPU linear solver.</li>
                 </ul>
             </div>
         </div>
