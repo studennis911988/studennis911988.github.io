@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>作品集 - 專案成就</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fff; margin: 0; padding: 0; }
+        .portfolio-section { max-width: 900px; margin: 40px auto; padding: 24px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; }
+        .project-title { font-size: 1.5em; font-weight: bold; margin-bottom: 8px; }
+        .project-date { color: #888; font-size: 0.95em; float: right; }
+        .project-content { display: flex; gap: 24px; }
+        .project-image { flex: 0 0 260px; }
+        .project-image img { width: 100%; border-radius: 6px; border: 1px solid #ccc; }
+        .project-details { flex: 1; }
+        .project-details h3 { margin: 0 0 8px 0; }
+        .project-details ul { margin: 8px 0 0 20px; }
+        .clear { clear: both; }
+    </style>
 </head>
 <body>
-    <h1>Dennis HomePage</h1>
+    <div class="portfolio-section">
+        <div class="project-title">
+            Xplorer
+            <span class="project-date">2023/12–仍在進行</span>
+        </div>
+        <div class="clear"></div>
+        <div class="project-content">
+            <div class="project-image">
+                <!-- Replace the src with your actual image path -->
+                <img src="xplorer-demo.png" alt="Xplorer 3D AI 購屋體驗">
+            </div>
+            <div class="project-details">
+                <h3>3D AI 購屋體驗 — Xplorer</h3>
+                <p>
+                    Xplorer 具備格局建繪、空間物件清除與換裝、精準房源推薦、全視角3D賞屋、全方位應屆諮詢等多元 AI 功能。
+                </p>
+                <p>
+                    個人負責的3D重建團隊，將3D高斯渲染（3DGS）用於室內重建，並成功部署成SaaS
+                </p>
+                <ul>
+                    <li>透過微調超參數及引入mesh initialization至3DGS，改善室內房地產的重建品質，客戶滿意度達90%。</li>
+                    <li>與iOS後端、DevOps及QA團隊緊密合作，成功將3D重建功能部署至production環境，每月處理超過100個房地產物件的視覺重建需求。</li>
+                    <li>平衡計算成本與重建品質，將雲端計算費用降低40%，同時維持PSNR大於23的視覺品質。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
